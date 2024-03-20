@@ -1,0 +1,134 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #dfe4ea;
+  margin: 0px;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+  background-color: #337ab7;
+}
+
+.header-kiri h1 {
+  color: white;
+  font-size: 3em;
+  margin: 0px;
+}
+
+.header-kanan {
+  margin: 0px 5%;
+}
+
+.header-kanan input {
+  padding: 10px;
+  color: black;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.header-kanan button {
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+#content {
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+}
+
+.content-kiri {
+  padding: 2% 3%;
+}
+
+.content-kiri h3 {
+  padding: 0px;
+  margin: 0px;
+  color: #348fa7;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.content-kiri p {
+  padding: 0px;
+  margin: 0px;
+  color: #0353df;
+  font-weight: bold;
+  font-size: 4.5em;
+}
+
+.content-kiri br {
+  margin: 0px;
+  padding: 0px;
+}
+
+.content-kanan {
+  padding: 20px 30px;
+  margin: 0px 8%;
+  border-radius: 10px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.content-kanan p {
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+.Signin-input {
+  display: grid;
+}
+
+.Signin-input label {
+  color: black;
+  padding: 10px 0px;
+}
+
+.Signin-input input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  color: black;
+  border: 1px solid #d9d9d9;
+}
+
+.content-kanan button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #3579b6;
+  color: white;
+  cursor: pointer;
+}
+
+.content-kanan a {
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+/* footer */
+footer {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    background-color: #f1f6f9;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+  }
